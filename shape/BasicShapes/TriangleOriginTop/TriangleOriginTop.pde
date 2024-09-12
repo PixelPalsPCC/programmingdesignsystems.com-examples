@@ -1,0 +1,12 @@
+void setup() {
+  size(600, 500);
+  background(240);
+  noStroke();
+  fill(40);
+  float size = width * 0.15;
+  translate(width/2, height/2);
+  triangle(0, 0, size, size*2, -size, size*2);
+  fill(40, 180, 155);
+  ellipse(0, 0, size*0.2, size*0.2);
+  noLoop();
+}
